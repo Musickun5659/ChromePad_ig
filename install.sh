@@ -11,7 +11,7 @@ pip install python-uinput
 printf "Copying ChromePad files to /usr/local/bin/ \n\n"
 cd ~
 sudo rm /usr/local/bin/chromepad /usr/local/bin/GamePad.py 2>/dev/null
-curl -Ls https://raw.githubusercontent.com/kishorv06/ChromePad/master/GamePad.py > GamePad.py
+curl https://raw.githubusercontent.com/Musickun5659/ChromePad_ig/master/GamePad.py > GamePad.py
 cp GamePad.py /usr/local/bin/GamePad.py
 sudo cat <<EOT >> /usr/local/bin/chromepad 
 #!/bin/bash
